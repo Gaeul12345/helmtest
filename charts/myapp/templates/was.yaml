@@ -18,7 +18,11 @@ spec:
   selector:
     matchLabels:
       app: was
+<<<<<<< HEAD
   replicas: {{.Values.replicaCount}}
+=======
+  replicas: {{.Values.replicasCount}}
+>>>>>>> 666239c65ab05f454005a4b916ad78ba1e1e7ab8
   template:
     metadata:
       labels:
@@ -26,8 +30,12 @@ spec:
     spec:
       containers:
       - name: was
+<<<<<<< HEAD
         image: {{ .Values.wasImage.repository }}:{{ .Values.wasImage.tag }}
         imagePullPolicy: {{ .Values.wasImage.pullPolicy }}
+=======
+        image: {{.Values.wasImage.repository}}:{{.Values.wasImage.tag}}
+>>>>>>> 666239c65ab05f454005a4b916ad78ba1e1e7ab8
         ports:
         - containerPort: 8080
       initContainers:

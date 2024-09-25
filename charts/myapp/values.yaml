@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Default values for custom-application.
 # This is where you can set customizable values.
 
@@ -19,3 +20,10 @@ service:
 #       paths: []
 #   tls: []
 
+=======
+replicasCount: 1
+
+wasImage:
+  repository: "Gaeul12345/helm-test-repo"
+  tag: v1
+>>>>>>> 666239c65ab05f454005a4b916ad78ba1e1e7ab8

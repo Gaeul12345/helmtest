@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 apiVersion: v2
 name: myapp
@@ -5,3 +6,8 @@ description: test app
 
 version: 0.1.0
 appVersion: "1.0"
+=======
+apiVersion: v2
+name: myapp
+version: 1.0.0
+>>>>>>> 666239c65ab05f454005a4b916ad78ba1e1e7ab8
